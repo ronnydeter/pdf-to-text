@@ -2,6 +2,7 @@
     "name": "ronnydeter/pdf-to-text",
     "description": "Extract text from a pdf",
     "keywords": [
+        "ronnydeter",
         "spatie",
         "pdf-to-text"
     ],
@@ -16,7 +17,7 @@
         }
     ],
     "require": {
-        "php" : "^7.0",
+        "php" : "^5.6",
         "symfony/process": "^3.0"
     },
     "require-dev": {
@@ -24,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\PdfToText\\": "src"
+            "RonnyDeter\\PdfToText\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\PdfToText\\Test\\": "tests"
+            "RonnyDeter\\PdfToText\\Test\\": "tests"
         }
     },
     "scripts": {
